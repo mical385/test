@@ -19,7 +19,6 @@ class MyWidget(QtWidgets.QWidget):
         clicker_state = False
         self.listener()
         self.setWindowTitle('Auto_clicker v1.0')
-        self.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
         self.onlyint = QtGui.QIntValidator()
         self.label = QtWidgets.QLabel('Status:',self)
         self.label.move(20,5)
